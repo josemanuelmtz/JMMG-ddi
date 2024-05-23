@@ -14,8 +14,8 @@ void main () {
   print(game);
   print('Nombre: ${game['name']}');
   print('Nombre: ${game['cover']}');
-  print('Cover Back: ${game['cover']}');
-  print('Cover Front: ${game['cover']}');
+  print('Cover Back: ${game['cover'][2]}');
+  print('Cover Front: ${game['cover'][1]}');
   
   
 }
